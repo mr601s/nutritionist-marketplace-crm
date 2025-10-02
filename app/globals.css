@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Brand surface */
 :root { color-scheme: light; }
 html, body { height: 100%; }
-a { transition: color .15s ease; }
+body { background: theme(colors.brand.cream); color: theme(colors.brand.ink); }
+
+/* Simple brand button */
+.btn-brand {
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 font-medium
+         bg-brand text-white hover:bg-brand/90 focus:outline-none focus:ring-2 focus:ring-brand.sage;
+}
+
+/* Card */
+.card {
+  @apply border rounded-2xl p-4 shadow-soft bg-white;
+}
+
+/* Links */
+a { @apply transition-colors duration-150; }
+a:hover { @apply text-brand; }

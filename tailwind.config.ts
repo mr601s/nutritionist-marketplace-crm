@@ -10,17 +10,20 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          DEFAULT: "#0f766e",
-          accent: "#f59e0b",
-          dark: "#0b0f19",
+          DEFAULT: "#2F6D5B",
+          sage: "#96B4A6",
+          accent: "#E97F72",
+          blush: "#F4A8A1",
+          cream: "#F2EDE6",
+          ink: "#2B3A37"
         }
+      },
+      boxShadow: {
+        soft: "0 6px 24px rgba(0,0,0,0.08)"
       },
       borderRadius: {
         xl: "1rem",
         "2xl": "1.5rem"
-      },
-      boxShadow: {
-        soft: "0 6px 24px rgba(0,0,0,0.08)"
       }
     }
   },

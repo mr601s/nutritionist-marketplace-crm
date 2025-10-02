@@ -5,13 +5,18 @@ import { brand } from "@/lib/brand";
 
 export default function BrandHeader() {
   return (
-    <header className="border-b">
+    <header className="border-b bg-white/90 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center gap-3">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.svg" alt={brand.name} width={28} height={28} priority />
-          <span className="font-semibold">{brand.name}</span>
+          <Image src="/logo.jpg" alt={brand.name} width={36} height={36} className="rounded-full" priority />
+          <div className="leading-tight">
+            <div className="font-semibold text-[17px]" style={{color:brand.colors.primary}}>{brand.name}</div>
+            <div className="text-xs text-brand.sage">{brand.tagline}</div>
+          </div>
         </Link>
-        <span className="ml-auto text-sm text-slate-600">{brand.tagline}</span>
+        <div className="ml-auto flex items-center gap-3 text-sm">
+          <span className="hidden sm:inline text-brand.sage">Nutrition • Coaching • Plans</span>
+        </div>
       </div>
     </header>
   );
