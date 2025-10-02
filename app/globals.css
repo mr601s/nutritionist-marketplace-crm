@@ -2,22 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Brand surface */
-:root { color-scheme: light; }
+/* Brand tokens (plain CSS vars, no theme() calls) */
+:root {
+  --brand: #2F6D5B;      /* primary */
+  --brand-sage: #96B4A6;
+  --brand-accent: #E97F72;
+  --brand-blush: #F4A8A1;
+  --brand-cream: #F2EDE6;
+  --brand-ink: #2B3A37;
+}
+
 html, body { height: 100%; }
-body { background: theme(colors.brand.cream); color: theme(colors.brand.ink); }
+body {
+  background: var(--brand-cream);
+  color: var(--brand-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-/* Simple brand button */
+/* Utilities composed with @apply are fully supported in Tailwind v3 */
 .btn-brand {
-  @apply inline-flex items-center justify-center rounded-md px-4 py-2 font-medium
-         bg-brand text-white hover:bg-brand/90 focus:outline-none focus:ring-2 focus:ring-brand.sage;
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 font-medium text-white;
+  background: var(--brand);
 }
+.btn-brand:hover { filter: brightness(0.95); }
 
-/* Card */
-.card {
-  @apply border rounded-2xl p-4 shadow-soft bg-white;
-}
+.card { @apply border rounded-2xl p-4 shadow-soft bg-white; }
 
-/* Links */
 a { @apply transition-colors duration-150; }
-a:hover { @apply text-brand; }
+a:hover { color: var(--brand); }
