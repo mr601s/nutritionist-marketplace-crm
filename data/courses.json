@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "foundations-of-macro-tracking",
+    "title": "Foundations of Macro Tracking",
+    "summary": "Learn macros, portions, and simple logging for real life.",
+    "level": "beginner",
+    "coverUrl": "/images/courses/macros.jpg",
+    "isPublished": true,
+    "lessons": [
+      {
+        "slug": "intro",
+        "title": "Welcome & Big Picture",
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "content": "### What you’ll learn\n- Why macros matter\n- Proteins, fats, carbs\n- How to track without obsession",
+        "durationMin": 6,
+        "order": 1,
+        "isPublished": true
+      },
+      {
+        "slug": "protein-basics",
+        "title": "Protein Basics",
+        "videoUrl": "https://www.youtube.com/embed/5qap5aO4i9A",
+        "content": "### Targets\nA simple rule of thumb is 0.7–1.0g per lb of goal bodyweight. Pair with fiber.",
+        "durationMin": 8,
+        "order": 2,
+        "isPublished": true
+      }
+    ]
+  }
+]
