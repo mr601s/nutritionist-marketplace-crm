@@ -1,4 +1,5 @@
-﻿import "./globals.css";
+import Link from "next/link";
+import "./globals.css";
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
@@ -27,3 +28,5 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     </html>
   );
 }
+
+{/* AUTO-ADDED */} <Link href="/courses" className="inline-flex items-center rounded-lg px-4 py-2 bg-emerald-700 text-white hover:bg-emerald-800">Courses</Link>
