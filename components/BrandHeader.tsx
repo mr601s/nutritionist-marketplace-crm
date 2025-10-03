@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { brand } from "@/lib/brand";
@@ -21,3 +21,5 @@ export default function BrandHeader() {
     </header>
   );
 }
+
+{/* AUTO-ADDED */} <Link href="/courses" className="inline-flex items-center rounded-lg px-4 py-2 bg-emerald-700 text-white hover:bg-emerald-800">Courses</Link>
