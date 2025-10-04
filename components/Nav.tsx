@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import Link from "next/link";
 
 export default function Nav() {
@@ -14,3 +14,5 @@ export default function Nav() {
     </nav>
   );
 }
+
+{/* AUTO-ADDED */}  <Link href="/courses" className="inline-flex items-center rounded-lg px-3 py-2 bg-emerald-700 text-white hover:bg-emerald-800 shadow-sm">Courses</Link>
