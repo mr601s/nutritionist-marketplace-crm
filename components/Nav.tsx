@@ -15,4 +15,4 @@ export default function Nav() {
   );
 }
 
-{/* AUTO-ADDED */} <Link href="/courses" className="inline-flex items-center rounded-lg px-4 py-2 bg-emerald-700 text-white hover:bg-emerald-800">Courses</Link>
+{/* AUTO-ADDED */}
