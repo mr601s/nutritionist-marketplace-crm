@@ -14,16 +14,15 @@ export default function Section1Page() {
           ></iframe>
         </div>
       </div>
-
       <h1 className="text-3xl font-bold mb-6">Section 1.1 – Why Do We Gain Fat?</h1>
       
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">🧠 Why Do We Gain Fat?</h2>
         <p className="mb-4">
-          Let's break it down simply: body fat is your body's way of storing energy. That's its core job. When you eat more energy (calories) than your body needs, it doesn't just disappear—it gets stored. And that storage? It's fat.
+          Let&apos;s break it down simply: body fat is your body&apos;s way of storing energy. That&apos;s its core job. When you eat more energy (calories) than your body needs, it doesn&apos;t just disappear—it gets stored. And that storage? It&apos;s fat.
         </p>
         <p className="mb-4">
-          From an evolutionary perspective, this was a survival superpower. Back when food wasn't always available, your body needed a way to save up extra energy for the lean times. Fat storage made that possible.
+          From an evolutionary perspective, this was a survival superpower. Back when food wasn&apos;t always available, your body needed a way to save up extra energy for the lean times. Fat storage made that possible.
         </p>
       </section>
       <section className="mb-8">
@@ -39,13 +38,13 @@ export default function Section1Page() {
           So while there are lots of theories out there about weight gain, the most fundamental reason is this:
         </p>
         <p className="mb-4 font-semibold">
-          Calories in vs. calories out. That's the core of fat gain.
+          Calories in vs. calories out. That&apos;s the core of fat gain.
         </p>
       </section>
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">🛡️ But Fat Isn't the Enemy</h2>
+        <h2 className="text-2xl font-semibold mb-4">🛡️ But Fat Isn&apos;t the Enemy</h2>
         <p className="mb-4">
-          Here's something important: body fat isn't bad. In fact, it's essential. Losing all your fat isn't the goal—and it wouldn't be healthy.
+          Here&apos;s something important: body fat isn&apos;t bad. In fact, it&apos;s essential. Losing all your fat isn&apos;t the goal—and it wouldn&apos;t be healthy.
         </p>
         <p className="mb-4">Your body fat plays several key roles:</p>
         <ul className="list-disc ml-6 mb-4 space-y-2">
@@ -54,7 +53,7 @@ export default function Section1Page() {
           <li>Stores hormones that help control hunger, appetite, and other vital functions</li>
         </ul>
         <p className="mb-4">
-          So yes, fat is energy storage—but it's also a functional, protective part of your physiology. The goal isn't to lose as much as possible. It's to find a healthy balance that supports your body and your goals.
+          So yes, fat is energy storage—but it&apos;s also a functional, protective part of your physiology. The goal isn&apos;t to lose as much as possible. It&apos;s to find a healthy balance that supports your body and your goals.
         </p>
       </section>
       <section className="mb-8">
@@ -64,7 +63,7 @@ export default function Section1Page() {
           <li>You gain fat when you consistently eat more than your body needs</li>
           <li>Fat helps regulate temperature and protect vital organs</li>
           <li>Fat stores key hormones that influence hunger and metabolism</li>
-          <li>Fat isn't something to "get rid of"—it's something your body uses</li>
+          <li>Fat isn&apos;t something to &quot;get rid of&quot;—it&apos;s something your body uses</li>
         </ul>
       </section>
     </main>
