@@ -1,7 +1,22 @@
 export default function Section5Page() {
   return (
     <main className="p-8 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">Section 1.5 – What Hinders Fat Loss</h1>
+      {/* YouTube Video Embed */}
+      <div className="mb-8">
+        <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/YtSZfTpGcrM"
+            title="Module 1.5 What Hinders Fat Loss"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
+      <h1 className="text-3xl font-bold mb-6">
+        Section 1.5 – What Hinders Fat Loss
+      </h1>
       
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">🚧 What Can Hinder Your Fat Loss?</h2>
@@ -12,7 +27,6 @@ export default function Section5Page() {
           Yes, calories in vs. calories out is the foundation of fat loss. But sticking to a calorie deficit over time takes more than just willpower—it takes strategy, awareness, and support. Let&apos;s look at some of the most common roadblocks that can slow down or stall your progress.
         </p>
       </section>
-
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">😴 Sleep: The Underrated Fat Loss Tool</h2>
         <p className="mb-4">
@@ -31,7 +45,6 @@ export default function Section5Page() {
           So if you&apos;re serious about fat loss, prioritize sleep. It&apos;s not optional—it&apos;s essential.
         </p>
       </section>
-
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">😫 Stress: The Silent Saboteur</h2>
         <p className="mb-4">
@@ -50,7 +63,6 @@ export default function Section5Page() {
           Managing stress through movement, mindfulness, and relaxation isn&apos;t just good for your mental health—it&apos;s a direct investment in your fat loss success.
         </p>
       </section>
-
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">🍿 Mindless Eating: The Sneaky Calorie Creep</h2>
         <p className="mb-4">
@@ -69,7 +81,6 @@ export default function Section5Page() {
           Being intentional with your choices helps you stay in control—and dramatically increases your chances of reaching your goals.
         </p>
       </section>
-
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">🧾 Quick Recap: What to Watch Out For</h2>
         <ul className="list-disc ml-6 mb-4 space-y-2">
