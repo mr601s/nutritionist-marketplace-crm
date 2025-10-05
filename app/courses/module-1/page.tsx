@@ -19,6 +19,12 @@ export default function Module1Page() {
       title: 'Section 1.2: How Do We Lose Fat?',
       description: 'Discover the role of BMR, TDEE, caloric deficit, and how hormones and genetics affect fat loss.',
       href: '/courses/module-1/section-2'
+    },
+    {
+      id: 'section-1.3',
+      title: 'Section 1.3: What Really Happens When You Lose Fat?',
+      description: 'Explore metabolic adaptations, lean body mass loss, and the physiological effects of fat loss.',
+      href: '/courses/module-1/section-3'
     }
   ];
 
