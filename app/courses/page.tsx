@@ -18,10 +18,10 @@ export default function CoursesPage() {
       <p className="mb-8 text-gray-600">
         Select a module below to begin your learning journey. Each module contains lessons designed to help you understand nutrition and achieve your health goals.
       </p>
-
+      
       <div className="grid gap-6">
         {modules.map((module) => (
-          <Link 
+          <Link
             key={module.id}
             href={module.href}
             className="block p-6 border border-gray-200 rounded-lg hover:border-brand hover:shadow-lg transition-all"
@@ -38,7 +38,7 @@ export default function CoursesPage() {
       <div className="mt-12 p-6 bg-gray-50 rounded-lg">
         <h3 className="text-xl font-semibold mb-2">More Modules Coming Soon</h3>
         <p className="text-gray-600">
-          We're continuously adding new content. Check back regularly for new modules and lessons!
+          We&apos;re continuously adding new content. Check back regularly for new modules and lessons!
         </p>
       </div>
     </main>
