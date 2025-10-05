@@ -48,3 +48,9 @@ public/videos/
 
 public/videos/
 
+
+# Ignore large/local videos
+public\videos\
+data/*.mp4
+*.mp4
+
