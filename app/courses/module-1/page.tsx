@@ -31,6 +31,12 @@ export default function Module1Page() {
       title: 'Section 1.4: Fat Loss & Exercise',
       description: 'Understand the deeper transformation that happens during fat loss and how to minimize side effects.',
       href: '/courses/module-1/section-4'
+    },
+    {
+      id: 'section-1.5',
+      title: 'Section 1.5: What Hinders Fat Loss',
+      description: 'Identify common roadblocks like poor sleep, chronic stress, and mindless eating that can slow your progress.',
+      href: '/courses/module-1/section-5'
     }
   ];
 
