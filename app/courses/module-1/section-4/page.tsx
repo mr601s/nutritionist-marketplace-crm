@@ -7,54 +7,50 @@ export default function Section4Page() {
           <iframe
             className="absolute top-0 left-0 w-full h-full"
             src="https://www.youtube.com/embed/ufXvy7r9lLE"
-            title="Module 1.4 Fat Loss & Exercise"
+            title="Module 1.4 Fat Loss &amp; Exercise"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-          ></iframe>
+          />
         </div>
       </div>
+
       <h1 className="text-3xl font-bold mb-6">
-Section 1.4 &ndash; Fat Loss & Exercise
-</h1>
+        Section 1.4 – Fat Loss &amp; Exercise
+      </h1>
       
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">
-🧠 What Really Happens When You Lose Fat?
-</h2>
+          🧠 What Really Happens When You Lose Fat?
+        </h2>
         <p className="mb-4">
-          Losing weight can feel empowering. You might notice changes in how you look, how your clothes fit, and how confident you feel. But beneath the surface, your body is going through a much deeper transformation&mdash;and it&apos;s not just about burning fat.
+          Losing weight can feel empowering. You might notice changes in how you look, how your clothes fit, and how confident you feel. But beneath the surface, your body is going through a much deeper transformation—and it&apos;s not just about burning fat.
         </p>
         <p className="mb-4">
           When you&apos;re in a caloric deficit (eating fewer calories than your body needs), your body has to make up the difference by tapping into stored energy. That&apos;s where fat loss comes in. But this process also comes with some important side effects.
         </p>
       </section>
+
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">
-⚙️ Metabolic Adaptations: Your Body&apos;s Survival Mode
-</h2>
+          ⚙️ Metabolic Adaptations: Your Body&apos;s Survival Mode
+        </h2>
         <p className="mb-4">
-          Your body is incredibly smart. It&apos;s evolved to survive tough times&mdash;like famine or food scarcity. So when you consistently eat less than your body needs, it doesn&apos;t just burn fat and move on. It adapts.
+          Your body is incredibly smart. It&apos;s evolved to survive tough times—like famine or food scarcity. So when you consistently eat less than your body needs, it doesn&apos;t just burn fat and move on. It adapts.
         </p>
         <p className="mb-4">
           Here&apos;s what happens:
         </p>
         <ul className="list-disc ml-6 mb-4 space-y-2">
-          <li>
-Your body sees the calorie drop as a threat (like starvation).
-</li>
-          <li>
-It responds by slowing down your metabolism to conserve energy.
-</li>
-          <li>
-You might feel more tired, less motivated to move, and even notice your weight loss stalling.
-</li>
+          <li>Your body sees the calorie drop as a threat (like starvation).</li>
+          <li>It responds by slowing down your metabolism to conserve energy.</li>
+          <li>You might feel more tired, less motivated to move, and even notice your weight loss stalling.</li>
         </ul>
         <p className="mb-4">
-          This is called metabolic adaptation&mdash;and it&apos;s your body&apos;s way of protecting itself. What started as a calorie deficit can eventually become your new &quot;maintenance,&quot; meaning you stop losing weight even though you haven&apos;t changed your intake.
+          This is called metabolic adaptation—and it&apos;s your body&apos;s way of protecting itself. What started as a calorie deficit can eventually become your new &quot;maintenance,&quot; meaning you stop losing weight even though you haven&apos;t changed your intake.
         </p>
         <p className="mb-4">
-          This is why many people hit a weight loss plateau. It&apos;s not failure&mdash;it&apos;s biology. And yes, there are smart ways to work around it (we&apos;ll dive into that in Module 2).
+          This is why many people hit a weight loss plateau. It&apos;s not failure—it&apos;s biology. And yes, there are smart ways to work around it (we&apos;ll dive into that in Module 2).
         </p>
       </section>
     </main>
