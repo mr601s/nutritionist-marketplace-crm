@@ -14,6 +14,7 @@ export default function BrandHeader() {
             <div className="text-xs text-brand.sage">{brand.tagline}</div>
           </div>
         </Link>
+        <Link href="/courses" className="inline-flex items-center rounded-lg px-4 py-2 bg-emerald-700 text-white hover:bg-emerald-800 transition">Courses</Link>
         <div className="ml-auto flex items-center gap-3 text-sm">
           <span className="hidden sm:inline text-brand.sage">Nutrition • Coaching • Plans</span>
         </div>
@@ -21,5 +22,3 @@ export default function BrandHeader() {
     </header>
   );
 }
-
-{/* AUTO-ADDED */} <Link href="/courses" className="inline-flex items-center rounded-lg px-4 py-2 bg-emerald-700 text-white hover:bg-emerald-800">Courses</Link>
