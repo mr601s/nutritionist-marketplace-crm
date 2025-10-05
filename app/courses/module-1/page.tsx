@@ -4,7 +4,7 @@ export default function Module1Page() {
   const sections = [
     {
       id: 'section-1.0',
-      title: 'Section 1.0: Basal Metabolic Rate & Energy Expenditure',
+      title: 'Section 1.0: Basal Metabolic Rate &amp; Energy Expenditure',
       description: 'Learn about BMR, TDEE, and how your body uses energy at rest and during activity.',
       href: '/courses/module-1/section-0'
     },
@@ -25,12 +25,18 @@ export default function Module1Page() {
       title: 'Section 1.3: What Really Happens When You Lose Fat?',
       description: 'Explore metabolic adaptations, lean body mass loss, and the physiological effects of fat loss.',
       href: '/courses/module-1/section-3'
+    },
+    {
+      id: 'section-1.4',
+      title: 'Section 1.4: Fat Loss &amp; Exercise',
+      description: 'Understand the deeper transformation that happens during fat loss and how to minimize side effects.',
+      href: '/courses/module-1/section-4'
     }
   ];
 
   return (
     <main className="p-8 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">Module 1: Weight & Fat Loss Fundamentals</h1>
+      <h1 className="text-3xl font-bold mb-6">Module 1: Weight &amp; Fat Loss Fundamentals</h1>
       
       <p className="mb-8 text-gray-600">
         Select a section below to continue your learning journey through Module 1.
