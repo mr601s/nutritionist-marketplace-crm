@@ -21,4 +21,12 @@ export function getCourses(): Course[] {
 }
 export function getCourse(slug: string): Course | undefined {
   return courses.find(c => c.slug === slug);
+}export function enroll(courseSlug: string) {
+  if (typeof window !== "undefined") {
+    localStorage.setItem(`enroll:${courseSlug}`, "true");
+  }
+}
+export function isEnrolled(courseSlug: string) {
+  if (typeof window === "undefined") return false;
+  return localStorage.getItem(`enroll:${courseSlug}`) === "true";
 }
