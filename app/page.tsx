@@ -17,9 +17,9 @@ export default function Page() {
         <div className="w-1/2 bg-gradient-to-br from-blue-50 to-blue-100 flex flex-col items-center justify-center p-12 transition-all hover:scale-[1.02] hover:shadow-2xl">
           <div className="text-center max-w-md">
             <div className="mb-8">
-              <div className="text-6xl mb-4 animate-bounce">🛒</div>
+              <div className="text-6xl mb-4 animate-bounce">🛂</div>
               <h1 className="text-4xl font-bold text-blue-900 mb-4">
-                I'm a Customer
+                I&apos;m a Customer
               </h1>
               <p className="text-lg text-blue-700 mb-8">
                 Book services, manage your nutrition plan, and track your progress
@@ -38,9 +38,9 @@ export default function Page() {
         <div className="w-1/2 bg-gradient-to-br from-green-50 to-green-100 flex flex-col items-center justify-center p-12 transition-all hover:scale-[1.02] hover:shadow-2xl">
           <div className="text-center max-w-md">
             <div className="mb-8">
-              <div className="text-6xl mb-4 animate-bounce">⚕️</div>
+              <div className="text-6xl mb-4 animate-bounce">⚥️</div>
               <h1 className="text-4xl font-bold text-green-900 mb-4">
-                I'm an Admin/Nutritionist
+                I&apos;m an Admin/Nutritionist
               </h1>
               <p className="text-lg text-green-700 mb-8">
                 Manage clients, create plans, and oversee your practice
