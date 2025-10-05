@@ -1,6 +1,20 @@
 export default function Section3Page() {
   return (
     <main className="p-8 max-w-4xl mx-auto">
+      {/* YouTube Video Embed */}
+      <div className="mb-8">
+        <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/KkUGeliHqm0"
+            title="Module 1.3 What Happens When You Lose Fat"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
       <h1 className="text-3xl font-bold mb-6">Section 1.3 – What Really Happens When You Lose Fat?</h1>
       
       <section className="mb-8">
