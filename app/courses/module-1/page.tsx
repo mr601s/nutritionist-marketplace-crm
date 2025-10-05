@@ -6,7 +6,7 @@ export default function Module1Page() {
       id: 'section-1.0',
       title: 'Section 1.0: Basal Metabolic Rate & Energy Expenditure',
       description: 'Learn about BMR, TDEE, and how your body uses energy at rest and during activity.',
-      href: '/courses/module-1'
+      href: '/courses/module-1/section-0'
     },
     {
       id: 'section-1.1',
