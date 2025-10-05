@@ -1,10 +1,23 @@
 export default function Section0Page() {
   return (
     <main className="p-8 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">Lesson 1.0 – Basal Metabolic Rate & Energy Expenditure</h1>
+      {/* YouTube Video Embed */}
+      <div className="mb-8">
+        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/Lrma19dryeI"
+            title="Module 1.0 Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
+
+      <h1 className="text-3xl font-bold mb-6">Lesson 1.0 – Basal Metabolic Rate &amp; Energy Expenditure</h1>
       
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">🔥 Basal Metabolic Rate & Energy Expenditure</h2>
+        <h2 className="text-2xl font-semibold mb-4">🔥 Basal Metabolic Rate &amp; Energy Expenditure</h2>
         <p className="mb-4">
           Let&apos;s start with your Basal Metabolic Rate (BMR)—this is the amount of energy (calories) your body needs just to keep you alive and functioning while at rest.
         </p>
@@ -18,7 +31,6 @@ export default function Section0Page() {
           So if you and someone else have the same height and weight, but you&apos;ve got more lean muscle, you&apos;ll naturally burn more calories just by existing. That&apos;s a win for your metabolism.
         </p>
       </section>
-
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">🧬 What Else Affects Your BMR?</h2>
         <p className="mb-4">Besides muscle mass, your BMR is also shaped by:</p>
@@ -30,7 +42,6 @@ export default function Section0Page() {
           But again, muscle mass is the key player here. The more you preserve or build muscle, the more you support your metabolism.
         </p>
       </section>
-
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">🧩 BMR Is Just One Piece of the Puzzle</h2>
         <p className="mb-4">
@@ -49,7 +60,6 @@ export default function Section0Page() {
           And yes, even digestion burns calories. That&apos;s the thermic effect of food, and it varies depending on what and how much you eat.
         </p>
       </section>
-
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">🧠 Why This Matters for Fat Loss</h2>
         <p className="mb-4">
