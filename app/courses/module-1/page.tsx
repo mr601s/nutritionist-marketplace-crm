@@ -13,6 +13,12 @@ export default function Module1Page() {
       title: 'Section 1.1: Why Do We Gain Fat?',
       description: 'Understand the calorie balance equation and why body fat is essential for health.',
       href: '/courses/module-1/section-1'
+    },
+    {
+      id: 'section-1.2',
+      title: 'Section 1.2: How Do We Lose Fat?',
+      description: 'Discover the role of BMR, TDEE, caloric deficit, and how hormones and genetics affect fat loss.',
+      href: '/courses/module-1/section-2'
     }
   ];
 
