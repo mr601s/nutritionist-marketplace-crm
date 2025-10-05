@@ -1,18 +1,48 @@
-﻿import ProductCard from "@/components/ProductCard";
-
-const catalog = [
-  { id: "plan-basic", name: "Initial Intake & Plan", price: 120, description: "60-min consult + plan", href: "/intake" },
-  { id: "followup", name: "Follow-up Session", price: 60, description: "30-min check-in", href: "/login" },
-  { id: "meal-plan", name: "Custom 7-Day Meal Plan", price: 45, description: "Personalized meals & macros", href: "/services" },
-];
+import Link from 'next/link';
 
 export default function Page() {
   return (
-    <div>
-      <h1 className="text-2xl font-semibold mb-3">Services</h1>
-      <p className="text-slate-600 mb-6">Book services, complete intake, and manage your plan.</p>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {catalog.map(item => <ProductCard key={item.id} item={item} />)}
+    <div className="min-h-screen flex">
+      {/* Customer Side - Left Half */}
+      <div className="w-1/2 bg-gradient-to-br from-blue-50 to-blue-100 flex flex-col items-center justify-center p-12">
+        <div className="text-center max-w-md">
+          <div className="mb-8">
+            <div className="text-6xl mb-4">🛒</div>
+            <h1 className="text-4xl font-bold text-blue-900 mb-4">
+              I'm a Customer
+            </h1>
+            <p className="text-lg text-blue-700 mb-8">
+              Book services, manage your nutrition plan, and track your progress
+            </p>
+          </div>
+          <Link
+            href="/customer-landing"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors shadow-lg hover:shadow-xl"
+          >
+            Enter Customer Portal
+          </Link>
+        </div>
+      </div>
+
+      {/* Admin/Nutritionist Side - Right Half */}
+      <div className="w-1/2 bg-gradient-to-br from-green-50 to-green-100 flex flex-col items-center justify-center p-12">
+        <div className="text-center max-w-md">
+          <div className="mb-8">
+            <div className="text-6xl mb-4">⚕️</div>
+            <h1 className="text-4xl font-bold text-green-900 mb-4">
+              I'm an Admin/Nutritionist
+            </h1>
+            <p className="text-lg text-green-700 mb-8">
+              Manage clients, create plans, and oversee your practice
+            </p>
+          </div>
+          <Link
+            href="/admin-landing"
+            className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors shadow-lg hover:shadow-xl"
+          >
+            Enter Admin Portal
+          </Link>
+        </div>
       </div>
     </div>
   );
