@@ -11,6 +11,8 @@ export default function Nav() {
     { href: "/courses", label: "Courses", icon: "📚" },
     { href: "/intake", label: "New Client", icon: "➕" },
     { href: "/cart", label: "Cart", icon: "🛒" },
+    { href: "/customer", label: "Customer Portal", icon: "👤" },
+    { href: "/admin", label: "Admin Portal", icon: "⚙️" },
   ];
 
   return (
@@ -26,12 +28,12 @@ export default function Nav() {
                   pathname === item.href ? "active" : ""
                 }`}
               >
-                <span className="text-lg" aria-hidden="true">{item.icon}</span>
+                <span aria-hidden="true" className="text-lg">{item.icon}</span>
                 <span className="hidden sm:inline">{item.label}</span>
               </Link>
             ))}
           </div>
-          <Link href="/login" className="btn-brand">
+          <Link className="btn-brand" href="/login">
             Login
           </Link>
         </div>
