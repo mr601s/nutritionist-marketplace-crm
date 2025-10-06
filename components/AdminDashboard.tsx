@@ -7,7 +7,6 @@ export default function AdminDashboard() {
           <h1 className="text-4xl font-bold text-white mb-2">Nutritionist Dashboard</h1>
           <p className="text-gray-400">Admin Control Panel</p>
         </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Client table */}
           <div className="lg:col-span-2 bg-gray-800 rounded-lg shadow-xl p-6">
@@ -46,7 +45,6 @@ export default function AdminDashboard() {
               </table>
             </div>
           </div>
-
           {/* Progress summary card */}
           <div className="bg-gray-800 rounded-lg shadow-xl p-6">
             <h2 className="text-2xl font-semibold text-white mb-4">Progress Summary</h2>
@@ -66,7 +64,7 @@ export default function AdminDashboard() {
                   <span className="text-white font-semibold">23</span>
                 </div>
                 <div className="w-full bg-gray-700 rounded-full h-2">
-                  <div className="bg-green-500 h-2 rounded-full" style={{width: '65%'}}></div>
+                  <div className="bg-green-500 h-2 rounded-full" style={{width: '49%'}}></div>
                 </div>
               </div>
               <div>
@@ -81,12 +79,11 @@ export default function AdminDashboard() {
             </div>
           </div>
         </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
           {/* Note editor card */}
           <div className="bg-gray-800 rounded-lg shadow-xl p-6">
             <h2 className="text-2xl font-semibold text-white mb-4">Quick Notes</h2>
-            <textarea 
+            <textarea
               className="w-full h-40 bg-gray-700 text-white rounded p-3 border border-gray-600 focus:border-blue-500 focus:outline-none"
               placeholder="Add client notes, reminders, or observations..."
             />
@@ -94,7 +91,6 @@ export default function AdminDashboard() {
               Save Note
             </button>
           </div>
-
           {/* Editable course catalogue card */}
           <div className="bg-gray-800 rounded-lg shadow-xl p-6">
             <h2 className="text-2xl font-semibold text-white mb-4">Course Catalogue</h2>
