@@ -19,6 +19,12 @@ export default function Module2Page() {
       title: 'Section 2.2: Setting Protein Targets',
       description: 'How to determine daily protein needs for fat loss, muscle, and health.',
       href: '/courses/module-2/section-2'
+    },
+    {
+      id: 'section-2.3',
+      title: 'Section 2.3: Setting Fat Targets',
+      description: 'Guidelines for healthy fat intake and energy balance in a nutrition plan.',
+      href: '/courses/module-2/section-3'
     }
   ];
 
