@@ -49,6 +49,12 @@ export default function Module2Page() {
       title: 'Section 2.7: Adjusting the Variables',
       description: 'How to monitor progress and update intake for sustainable weight loss.',
       href: '/courses/module-2/section-7'
+    },
+    {
+      id: 'section-2.8',
+      title: 'Section 2.8: Meal Prepping',
+      description: 'How to use meal prepping for consistency and nutritional success.',
+      href: '/courses/module-2/section-8'
     }
   ];
 
