@@ -4,9 +4,9 @@ export default function Section28Page() {
       <h1 className="text-3xl font-bold mb-6">
         Section 2.8: Meal Prepping
       </h1>
-
+      
       <p className="mb-6">
-        Let{''}s be real—sticking to a nutrition plan is one of the hardest parts of fat loss. Life gets busy, cravings hit, and convenience often wins. That{''}s where meal prepping comes in.
+        Let{"'"} be real—sticking to a nutrition plan is one of the hardest parts of fat loss. Life gets busy, cravings hit, and convenience often wins. That{"'"} where meal prepping comes in.
       </p>
 
       <p className="mb-6">
@@ -17,7 +17,7 @@ export default function Section28Page() {
         <li>Save time during the week</li>
         <li>Avoid impulsive food choices</li>
         <li>Stick to your calorie and macro goals</li>
-        <li>Reduce stress around "what{''}s for dinner?"</li>
+        <li>Reduce stress around {"what's for dinner?"}</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mb-4">
@@ -25,7 +25,7 @@ export default function Section28Page() {
       </h2>
 
       <p className="mb-6">
-        You don{''}t need fancy containers or hours in the kitchen. Just follow this basic structure:
+        You don{"'"} need fancy containers or hours in the kitchen. Just follow this basic structure:
       </p>
 
       <ul className="list-disc pl-6 mb-6 space-y-2">
@@ -35,7 +35,7 @@ export default function Section28Page() {
       </ul>
 
       <p className="mb-8">
-        Whether you{''}re omnivorous, vegetarian, or vegan, prepping ahead gives you control—and removes the guesswork. It{''}s one of the best ways to turn your nutrition plan into a habit you can actually stick with.
+        Whether you{"'"} omnivorous, vegetarian, or vegan, prepping ahead gives you control—and removes the guesswork. It{"'"} one of the best ways to turn your nutrition plan into a habit you can actually stick with.
       </p>
 
       <h2 className="text-2xl font-semibold mb-4">
@@ -43,11 +43,11 @@ export default function Section28Page() {
       </h2>
 
       <p className="mb-6">
-        If you{''}re looking for step-by-step guidance, tailored meal plans, or just want help simplifying the process, you{''}ll find plenty of resources at <a href="https://www.plantedinnutrition.com/" className="text-brand hover:underline" target="_blank" rel="noopener noreferrer">Planted in Nutrition</a>. From meal planning guidelines to personalized coaching, you can work directly with me to build a plan that fits your life, your goals, and your plate.
+        If you{"'"} looking for step-by-step guidance, tailored meal plans, or just want help simplifying the process, you{"'"} find plenty of resources at <a className="text-brand hover:underline" href="https://www.plantedinnutrition.com/" target="_blank" rel="noopener noreferrer">Planted in Nutrition</a>. From meal planning guidelines to personalized coaching, you can work directly with me to build a plan that fits your life, your goals, and your plate.
       </p>
 
       <p className="mb-8">
-        Also, if you{''}re working with your own Dietitian/Nutritionist—share what you have learned here so they can help you reach your goals!
+        Also, if you{"'"} working with your own Dietitian/Nutritionist—share what you have learned here so they can help you reach your goals!
       </p>
     </main>
   );
