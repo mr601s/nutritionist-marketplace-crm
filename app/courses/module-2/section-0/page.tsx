@@ -20,7 +20,7 @@ export default function Section0Page() {
       
       <section className="mb-8">
         <p className="mb-4">
-          Before you can build a smart fat loss plan, you need to know how many calories your body burns in a day. That number is called your Total Daily Energy Expenditure (TDEE)—and it's your starting point.
+          Before you can build a smart fat loss plan, you need to know how many calories your body burns in a day. That number is called your Total Daily Energy Expenditure (TDEE)—and it{"'"} s your starting point.
         </p>
         <p className="mb-4">Your TDEE includes:</p>
         <ul className="list-disc ml-6 mb-4 space-y-2">
@@ -34,11 +34,11 @@ export default function Section0Page() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">🧮 A Simple Way to Estimate TDEE</h2>
         <p className="mb-4">
-          You can use online calculators for a more detailed estimate, but here's a quick formula:
+          You can use online calculators for a more detailed estimate, but here{"'"} s a quick formula:
         </p>
         <ul className="list-disc ml-6 mb-4 space-y-2">
           <li>Multiply your body weight (in pounds) by:</li>
-          <li>12 if you're mostly sedentary</li>
+          <li>12 if you{"'"} re mostly sedentary</li>
           <li>13 if you exercise 2–3 times per week</li>
           <li>14–15 if you exercise 3–6 times per week</li>
         </ul>
@@ -48,7 +48,7 @@ export default function Section0Page() {
           200 × 13 = 2600 calories/day for maintenance
         </p>
         <p className="mb-4">
-          This is just a starting point. Your actual needs may vary based on metabolism, body composition, and lifestyle. That's why it's important to track progress and adjust as needed.
+          This is just a starting point. Your actual needs may vary based on metabolism, body composition, and lifestyle. That{"'"} s why it{"'"} s important to track progress and adjust as needed.
         </p>
         <p className="mb-4 font-semibold">
           BONUS: I have provided an additional handout (PDF) that contains a link to one of my favorite TDEE calculators- even easier than doing the math yourself!
