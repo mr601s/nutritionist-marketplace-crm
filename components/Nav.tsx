@@ -11,8 +11,6 @@ export default function Nav() {
     { href: "/courses", label: "Courses", icon: "📚" },
     { href: "/intake", label: "New Client", icon: "➕" },
     { href: "/cart", label: "Cart", icon: "🛒" },
-    { href: "/customer", label: "Customer Portal", icon: "👤" },
-    { href: "/admin", label: "Admin Portal", icon: "⚙️" },
   ];
 
   return (
