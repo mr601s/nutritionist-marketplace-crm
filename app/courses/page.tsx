@@ -45,7 +45,7 @@ export default function CoursesPage() {
       <div className="mt-12 p-6 bg-gray-50 rounded-lg">
         <h3 className="text-xl font-semibold mb-2">More Modules Coming Soon</h3>
         <p className="text-gray-600">
-          We're continuously adding new content. Check back regularly for new modules and lessons!
+          We&apos;re continuously adding new content. Check back regularly for new modules and lessons!
         </p>
       </div>
     </main>
