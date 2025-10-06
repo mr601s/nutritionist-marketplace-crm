@@ -29,7 +29,7 @@ export default function CoursesPage() {
       <div className="grid gap-6">
         {modules.map((module) => (
           <Link
-                      key={module.id}
+            key={module.id}
             href={module.href}
             className="block p-6 border border-gray-200 rounded-lg hover:border-brand hover:shadow-lg transition-all"
           >
