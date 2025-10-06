@@ -12,7 +12,7 @@ export default function BrandHeader() {
             <div className="relative">
               <Image
                 src="/logo.jpg"
-                alt={brand.name}
+                alt="Planted In Nutrition"
                 width={48}
                 height={48}
                 className="rounded-full shadow-md ring-2 ring-white transition-all duration-200 group-hover:ring-[var(--brand-sage)]"
@@ -22,12 +22,12 @@ export default function BrandHeader() {
             </div>
             <div className="leading-tight">
               <div
-                className="font-bold text-xl tracking-tight transition-colors duration-200"
+                className="font-bold text-2xl tracking-tight transition-colors duration-200"
                 style={{ color: brand.colors.primary }}
               >
-                {brand.name}
+                Planted In Nutrition
               </div>
-              <div className="text-sm font-medium" style={{ color: "var(--brand-sage)" }}>
+              <div className="text-xs font-normal" style={{ color: "var(--brand-sage)" }}>
                 {brand.tagline}
               </div>
             </div>
