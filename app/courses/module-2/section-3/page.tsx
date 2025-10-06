@@ -1,6 +1,21 @@
 export default function Section23Page() {
   return (
     <main className="p-8 max-w-4xl mx-auto">
+      {/* YouTube Video Embed */}
+      <div className="mb-8">
+        <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/xsjsBF9fT9g"
+            title="Module 2.3 Setting Fat Targets"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      </div>
       <h1 className="text-3xl font-bold mb-6">
         🥑 2.3 Setting Fat Targets
       </h1>
