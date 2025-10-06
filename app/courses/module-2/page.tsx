@@ -37,6 +37,12 @@ export default function Module2Page() {
       title: 'Section 2.5: What About Micronutrients?',
       description: 'Understanding micronutrient needs and food variety for health.',
       href: '/courses/module-2/section-5'
+    },
+    {
+      id: 'section-2.6',
+      title: 'Section 2.6: Food Choices',
+      description: 'Best practices for food selection, bioavailability, and healthy eating patterns.',
+      href: '/courses/module-2/section-6'
     }
   ];
 
