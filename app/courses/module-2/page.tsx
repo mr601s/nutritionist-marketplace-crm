@@ -13,6 +13,12 @@ export default function Module2Page() {
       title: 'Section 2.1: Creating the Deficit',
       description: 'Discover how to create an effective caloric deficit for sustainable fat loss.',
       href: '/courses/module-2/section-1'
+    },
+    {
+      id: 'section-2.2',
+      title: 'Section 2.2: Setting Protein Targets',
+      description: 'How to determine daily protein needs for fat loss, muscle, and health.',
+      href: '/courses/module-2/section-2'
     }
   ];
 
