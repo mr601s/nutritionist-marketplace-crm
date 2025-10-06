@@ -1,4 +1,4 @@
-﻿@tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -13,6 +13,7 @@
 }
 
 html, body { height: 100%; }
+
 body {
   background: var(--brand-cream);
   color: var(--brand-ink);
@@ -20,14 +21,105 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Utilities composed with @apply are fully supported in Tailwind v3 */
+/* Enhanced button with accent colors, shadows, and transitions */
 .btn-brand {
-  @apply inline-flex items-center justify-center rounded-md px-4 py-2 font-medium text-white;
+  @apply inline-flex items-center justify-center rounded-lg px-6 py-3 font-semibold text-white shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
   background: var(--brand);
+  focus-ring-color: var(--brand-accent);
 }
-.btn-brand:hover { filter: brightness(0.95); }
 
-.card { @apply border rounded-2xl p-4 shadow-soft bg-white; }
+.btn-brand:hover {
+  filter: brightness(0.95);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px -4px rgba(47, 109, 91, 0.3);
+}
 
-a { @apply transition-colors duration-150; }
-a:hover { color: var(--brand); }
+.btn-brand:active {
+  transform: translateY(0);
+}
+
+.btn-brand:focus {
+  ring-color: var(--brand-accent);
+}
+
+/* Enhanced card with glassmorphism effect */
+.card {
+  @apply border border-gray-100 rounded-2xl p-6 bg-white shadow-lg transition-all duration-300 hover:shadow-xl;
+  backdrop-filter: blur(10px);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--brand-sage);
+}
+
+/* Professional navigation styles */
+.nav-container {
+  @apply backdrop-blur-md bg-white/80 shadow-md transition-all duration-300;
+  border-bottom: 1px solid rgba(150, 180, 166, 0.2);
+}
+
+.nav-link {
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all duration-200;
+  color: var(--brand-ink);
+}
+
+.nav-link:hover {
+  background: var(--brand-cream);
+  color: var(--brand);
+  transform: translateY(-1px);
+}
+
+.nav-link.active {
+  background: var(--brand);
+  color: white;
+  box-shadow: 0 4px 8px -2px rgba(47, 109, 91, 0.3);
+}
+
+.nav-link:focus {
+  @apply outline-none ring-2 ring-offset-2;
+  ring-color: var(--brand-accent);
+}
+
+/* Enhanced anchor styles */
+a {
+  @apply transition-all duration-200;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand);
+}
+
+a:focus {
+  @apply outline-none ring-2 ring-offset-1;
+  ring-color: var(--brand-accent);
+  border-radius: 4px;
+}
+
+/* Typography enhancements */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+  color: var(--brand-ink);
+  letter-spacing: -0.02em;
+}
+
+h1 { @apply text-4xl md:text-5xl mb-4; }
+h2 { @apply text-3xl md:text-4xl mb-3; }
+h3 { @apply text-2xl md:text-3xl mb-2; }
+
+/* Utility classes */
+.shadow-soft {
+  box-shadow: 0 4px 12px -2px rgba(43, 58, 55, 0.08);
+}
+
+.glass-effect {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(150, 180, 166, 0.2);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
