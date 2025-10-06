@@ -43,6 +43,12 @@ export default function Module2Page() {
       title: 'Section 2.6: Food Choices',
       description: 'Best practices for food selection, bioavailability, and healthy eating patterns.',
       href: '/courses/module-2/section-6'
+    },
+    {
+      id: 'section-2.7',
+      title: 'Section 2.7: Adjusting the Variables',
+      description: 'How to monitor progress and update intake for sustainable weight loss.',
+      href: '/courses/module-2/section-7'
     }
   ];
 
