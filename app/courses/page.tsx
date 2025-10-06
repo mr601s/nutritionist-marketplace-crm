@@ -6,8 +6,15 @@ export default function CoursesPage() {
       id: 'module-1',
       title: 'Module 1: Weight & Fat Loss Fundamentals',
       description: 'Learn about Basal Metabolic Rate (BMR), Total Daily Energy Expenditure (TDEE), and how your body uses energy.',
-      lessons: 1,
+      lessons: 6,
       href: '/courses/module-1'
+    },
+    {
+      id: 'module-2',
+      title: 'Module 2: Putting It Into Practice',
+      description: 'Learn how to calculate your TDEE and create an effective caloric deficit for sustainable fat loss.',
+      lessons: 2,
+      href: '/courses/module-2'
     },
     // Future modules can be added here
   ];
