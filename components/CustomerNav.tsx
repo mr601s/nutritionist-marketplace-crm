@@ -8,6 +8,7 @@ export default function CustomerNav() {
   const [progressText, setProgressText] = useState("");
 
   const navItems = [
+    { href: "/customer", label: "Customer Portal", icon: "🏠" },
     { href: "/customer/my-courses", label: "My Courses", icon: "📚" },
     { href: "/customer/progress", label: "Progress Tracker", icon: "📊" },
     { href: "/customer/appointments", label: "Upcoming Appointments", icon: "📅" },
