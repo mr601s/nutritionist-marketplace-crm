@@ -33,7 +33,7 @@ export default function Section23Page() {
       </div>
       
       <p className="text-gray-700">
-        You can adjust this slightly based on personal preference, but fat should never drop below 20% of your total intake. That{"'"s the minimum your body needs to function properly.
+        You can adjust this slightly based on personal preference, but fat should never drop below 20% of your total intake. That{"'s"} the minimum your body needs to function properly.
       </p>
     </main>
   );
