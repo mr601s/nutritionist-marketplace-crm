@@ -5,7 +5,7 @@ export default function Section2Page() {
       
       <section className="mb-8">
         <p className="mb-4">
-          Once you've set your calorie goal, it's time to break those calories down into macronutrients—starting with protein.
+          Once {"you've"} set your calorie goal, {"it's"} time to break those calories down into macronutrients—starting with protein.
         </p>
         <p className="mb-4">
           Protein is the most important nutrient during fat loss because it:
@@ -16,10 +16,9 @@ export default function Section2Page() {
           <li>Supports overall health</li>
         </ul>
         <p className="mb-4">
-          Your body can't make essential amino acids on its own, so you need to get them from food. That's why protein is non-negotiable.
+          Your body {"can't"} make essential amino acids on its own, so you need to get them from food. {"That's"} why protein is non-negotiable.
         </p>
       </section>
-
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">📏 How Much Protein Do You Need?</h2>
         <p className="mb-4">
