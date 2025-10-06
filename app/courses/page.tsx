@@ -22,14 +22,14 @@ export default function CoursesPage() {
       <div className="grid gap-6">
         {modules.map((module) => (
           <Link
-            key={module.id}
+                      key={module.id}
             href={module.href}
             className="block p-6 border border-gray-200 rounded-lg hover:border-brand hover:shadow-lg transition-all"
           >
             <h2 className="text-2xl font-semibold mb-2">{module.title}</h2>
             <p className="text-gray-600 mb-4">{module.description}</p>
             <div className="text-sm text-gray-500">
-              {module.lessons} lesson{module.lessons !== 1 ? 's' : ''} available
+              {module.lessons} lesson{module.lessons !== 1 ? "s" : ""} available
             </div>
           </Link>
         ))}
@@ -38,7 +38,7 @@ export default function CoursesPage() {
       <div className="mt-12 p-6 bg-gray-50 rounded-lg">
         <h3 className="text-xl font-semibold mb-2">More Modules Coming Soon</h3>
         <p className="text-gray-600">
-          We&apos;re continuously adding new content. Check back regularly for new modules and lessons!
+          We're continuously adding new content. Check back regularly for new modules and lessons!
         </p>
       </div>
     </main>
