@@ -23,7 +23,7 @@ export default function CoursesPage() {
     <main className="p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-6">Course Modules</h1>
       <p className="mb-8 text-gray-600">
-        Select a module below to begin your learning journey. Each module contains lessons designed to help you understand nutrition and achieve your health goals.
+        {"Select a module below to begin your learning journey. Each module contains lessons designed to help you understand nutrition and achieve your health goals."}
       </p>
       <div className="grid gap-6">
         {modules.map((module) => (
@@ -43,7 +43,7 @@ export default function CoursesPage() {
       <div className="mt-12 p-6 bg-gray-50 rounded-lg">
         <div className="text-xl font-semibold mb-2">More Modules Coming Soon</div>
         <div className="text-gray-600">
-          We're continuously adding new content. Check back regularly for new modules and lessons!
+          {"We're continuously adding new content. Check back regularly for new modules and lessons!"}
         </div>
       </div>
     </main>
