@@ -15,7 +15,7 @@ export default function CoursesPage() {
       description: 'Learn how to calculate your TDEE and create an effective caloric deficit for sustainable fat loss.',
       lessons: 2,
       href: '/courses/module-2'
-    },
+    }
     // Future modules can be added here
   ];
 
@@ -25,7 +25,6 @@ export default function CoursesPage() {
       <p className="mb-8 text-gray-600">
         Select a module below to begin your learning journey. Each module contains lessons designed to help you understand nutrition and achieve your health goals.
       </p>
-      
       <div className="grid gap-6">
         {modules.map((module) => (
           <Link
@@ -34,19 +33,18 @@ export default function CoursesPage() {
             className="block p-6 border border-gray-200 rounded-lg hover:border-brand hover:shadow-lg transition-all"
           >
             <h2 className="text-2xl font-semibold mb-2">{module.title}</h2>
-            <p className="text-gray-600 mb-4">{module.description}</p>
-            <div className="text-sm text-gray-500">
+            <div className="text-gray-600">{module.description}</div>
+            <div>
               {module.lessons} lesson{module.lessons !== 1 ? "s" : ""} available
             </div>
           </Link>
         ))}
       </div>
-
       <div className="mt-12 p-6 bg-gray-50 rounded-lg">
-        <h3 className="text-xl font-semibold mb-2">More Modules Coming Soon</h3>
-        <p className="text-gray-600">
+        <div className="text-xl font-semibold mb-2">More Modules Coming Soon</div>
+        <div className="text-gray-600">
           We're continuously adding new content. Check back regularly for new modules and lessons!
-        </p>
+        </div>
       </div>
     </main>
   );
