@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -19,18 +18,19 @@ export default function Page() {
             <div className="mb-8">
               <div className="text-6xl mb-4 animate-bounce">🛒</div>
               <h1 className="text-4xl font-bold text-blue-900 mb-4">
-                I&apos;m a Customer
+                I'm a Customer
               </h1>
               <p className="text-lg text-blue-700 mb-8">
                 Book services, manage your nutrition plan, and track your progress
               </p>
             </div>
-            <button
+            <Link
+              href="/customer"
               onClick={handleSelection}
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Enter Customer Portal
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -40,18 +40,19 @@ export default function Page() {
             <div className="mb-8">
               <div className="text-6xl mb-4 animate-bounce">⚕️</div>
               <h1 className="text-4xl font-bold text-green-900 mb-4">
-                I&apos;m an Admin/Nutritionist
+                I'm an Admin/Nutritionist
               </h1>
               <p className="text-lg text-green-700 mb-8">
                 Manage clients, create plans, and oversee your practice
               </p>
             </div>
-            <button
+            <Link
+              href="/admin"
               onClick={handleSelection}
               className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Enter Admin Portal
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -69,13 +70,13 @@ export default function Page() {
         </p>
         <div className="flex gap-4 justify-center">
           <Link
-            href="/customer-landing"
+            href="/customer"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
           >
             Customer Portal
           </Link>
           <Link
-            href="/admin-landing"
+            href="/admin"
             className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
           >
             Admin Portal
