@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 export default function Module2Page() {
   const sections = [
     {
@@ -25,9 +24,14 @@ export default function Module2Page() {
       title: 'Section 2.3: Setting Fat Targets',
       description: 'Guidelines for healthy fat intake and energy balance in a nutrition plan.',
       href: '/courses/module-2/section-3'
+    },
+    {
+      id: 'section-2.4',
+      title: 'Section 2.4: Setting Carbohydrate Targets',
+      description: 'How to calculate and customize carb intake for healthy nutrition.',
+      href: '/courses/module-2/section-4'
     }
   ];
-
   return (
     <main className="p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-6">
@@ -37,7 +41,6 @@ export default function Module2Page() {
       <p className="mb-8 text-gray-600">
         Select a section below to continue your learning journey through Module 2.
       </p>
-
       <div className="grid gap-6 mb-12">
         {sections.map((section) => (
           <Link
@@ -50,7 +53,6 @@ export default function Module2Page() {
           </Link>
         ))}
       </div>
-
       <div className="mt-12 p-6 bg-gray-50 rounded-lg">
         <h3 className="text-xl font-semibold mb-2">Coming Soon</h3>
         <p className="text-gray-600">
