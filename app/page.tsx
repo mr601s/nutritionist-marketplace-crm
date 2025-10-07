@@ -1,12 +1,19 @@
 'use client';
 import { useState } from 'react';
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 export default function Page() {
   const [showOverlay, setShowOverlay] = useState(true);
+  const router = useRouter();
 
-  const handleSelection = () => {
+  const handleCustomerSelection = () => {
     setShowOverlay(false);
+    router.push('/login');
+  };
+
+  const handleNutritionistSelection = () => {
+    setShowOverlay(false);
+    router.push('/login');
   };
 
   if (showOverlay) {
@@ -24,16 +31,14 @@ export default function Page() {
                 Book services, manage your nutrition plan, and track your progress
               </p>
             </div>
-            <Link
-              href="/customer"
-              onClick={handleSelection}
+            <button
+              onClick={handleCustomerSelection}
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Enter Customer Portal
-            </Link>
+            </button>
           </div>
         </div>
-
         {/* Admin/Nutritionist Side - Right Half */}
         <div className="w-1/2 bg-gradient-to-br from-green-50 to-green-100 flex flex-col items-center justify-center p-12 transition-all hover:scale-[1.02] hover:shadow-2xl">
           <div className="text-center max-w-md">
@@ -46,13 +51,12 @@ export default function Page() {
                 Manage clients, create plans, and oversee your practice
               </p>
             </div>
-            <Link
-              href="/admin"
-              onClick={handleSelection}
+            <button
+              onClick={handleNutritionistSelection}
               className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Enter Admin Portal
-            </Link>
+            </button>
           </div>
         </div>
       </div>
@@ -60,28 +64,9 @@ export default function Page() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-12">
-      <div className="text-center max-w-2xl">
-        <h1 className="text-5xl font-bold text-gray-900 mb-6">
-          Welcome to Nutritionist Marketplace CRM
-        </h1>
-        <p className="text-xl text-gray-600 mb-8">
-          Your complete solution for nutrition practice management
-        </p>
-        <div className="flex gap-4 justify-center">
-          <Link
-            href="/customer"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-          >
-            Customer Portal
-          </Link>
-          <Link
-            href="/admin"
-            className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-          >
-            Admin Portal
-          </Link>
-        </div>
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+      <div className="container mx-auto px-4 py-8">
+        <h1 className="text-4xl font-bold text-gray-800 mb-8">Welcome</h1>
       </div>
     </div>
   );
