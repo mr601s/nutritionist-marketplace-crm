@@ -9,5 +9,11 @@ export default function CustomerNav() {
     { href: "/customer/notes", label: "Notes", icon: "📝" },
   ];
 
-  return <SidebarNav items={navItems} />;
+  return (
+    <SidebarNav
+      title="Customer Portal"
+      navItems={navItems}
+      logoutHref="/login"
+    />
+  );
 }
