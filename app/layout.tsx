@@ -1,9 +1,8 @@
-﻿import "./globals.css";
+import "./globals.css";
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
 import BrandHeader from "@/components/BrandHeader";
-import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { brand } from "@/lib/brand";
 
@@ -20,7 +19,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className={`${inter.className} min-h-screen`}>
         <BrandHeader />
-        <Nav />
         <main className="mx-auto max-w-6xl p-4">{children}</main>
         <Footer />
       </body>
