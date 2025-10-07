@@ -18,7 +18,7 @@ export default function Page() {
             <div className="mb-8">
               <div className="text-6xl mb-4 animate-bounce">🛒</div>
               <h1 className="text-4xl font-bold text-blue-900 mb-4">
-                I&apos;m a Customer
+                I&amp;apos;m a Customer
               </h1>
               <p className="text-lg text-blue-700 mb-8">
                 Book services, manage your nutrition plan, and track your progress
@@ -40,7 +40,7 @@ export default function Page() {
             <div className="mb-8">
               <div className="text-6xl mb-4 animate-bounce">⚕️</div>
               <h1 className="text-4xl font-bold text-green-900 mb-4">
-                I&apos;m an Admin/Nutritionist
+                I&amp;apos;m an Admin/Nutritionist
               </h1>
               <p className="text-lg text-green-700 mb-8">
                 Manage clients, create plans, and oversee your practice
