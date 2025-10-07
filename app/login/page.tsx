@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabaseClient';
@@ -26,6 +25,14 @@ export default function LoginPage() {
     }
   };
 
+  const handleDemoCustomer = () => {
+    router.push('/customerportal');
+  };
+
+  const handleDemoNutritionist = () => {
+    router.push('/adminportal');
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="max-w-md w-full space-y-8 p-8 bg-white rounded-lg shadow">
@@ -37,7 +44,7 @@ export default function LoginPage() {
             </div>
           )}
           <div>
-            <label htmlFor="email" className="block text-sm font-medium">
+            <label className="block text-sm font-medium" htmlFor="email">
               Email
             </label>
             <input
@@ -50,7 +57,7 @@ export default function LoginPage() {
             />
           </div>
           <div>
-            <label htmlFor="password" className="block text-sm font-medium">
+            <label className="block text-sm font-medium" htmlFor="password">
               Password
             </label>
             <input
@@ -69,9 +76,27 @@ export default function LoginPage() {
             Sign In
           </button>
         </form>
+        
+        {/* Demo Bypass Buttons */}
+        <div className="space-y-3 pt-4 border-t border-gray-200">
+          <p className="text-center text-sm text-gray-600 font-medium">Demo Mode</p>
+          <button
+            onClick={handleDemoCustomer}
+            className="w-full py-2 px-4 bg-green-600 text-white rounded-md hover:bg-green-700"
+          >
+            Demo as Customer
+          </button>
+          <button
+            onClick={handleDemoNutritionist}
+            className="w-full py-2 px-4 bg-purple-600 text-white rounded-md hover:bg-purple-700"
+          >
+            Demo as Nutritionist
+          </button>
+        </div>
+
         <p className="text-center text-sm">
-          Don&apos;t have an account?{' '}
-          <a href="/signup" className="text-blue-600 hover:underline">
+          Don't have an account?{' '}
+          <a className="text-blue-600 hover:underline" href="/signup">
             Sign Up
           </a>
         </p>
