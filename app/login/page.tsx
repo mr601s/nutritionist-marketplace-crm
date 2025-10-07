@@ -26,11 +26,11 @@ export default function LoginPage() {
   };
 
   const handleDemoCustomer = () => {
-    router.push('/customerportal');
+    router.push('/customer');
   };
 
   const handleDemoNutritionist = () => {
-    router.push('/adminportal');
+    router.push('/admin');
   };
 
   return (
@@ -93,7 +93,6 @@ export default function LoginPage() {
             Demo as Nutritionist
           </button>
         </div>
-
         <p className="text-center text-sm">
           {"Don't have an account?"}{' '}
           <a className="text-blue-600 hover:underline" href="/signup">
