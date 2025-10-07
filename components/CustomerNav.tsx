@@ -1,17 +1,15 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
 
 export default function CustomerNav() {
   const pathname = usePathname();
-  const [progressText, setProgressText] = useState("");
-
+  
   const navItems = [
-    { href: "/customer", label: "Customer Portal", icon: "🏠" },
-    { href: "/customer/my-courses", label: "My Courses", icon: "📚" },
-    { href: "/customer/progress", label: "Progress Tracker", icon: "📊" },
-    { href: "/customer/appointments", label: "Upcoming Appointments", icon: "📅" },
+    { href: "/customer/services", label: "Services", icon: "🛠️" },
+    { href: "/customer/courses", label: "Courses", icon: "📚" },
+    { href: "/customer/progress", label: "Progress Tracking", icon: "📊" },
+    { href: "/customer/notes", label: "Notes", icon: "📝" },
   ];
 
   return (
