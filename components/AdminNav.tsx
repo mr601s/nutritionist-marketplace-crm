@@ -6,11 +6,11 @@ export default function AdminNav() {
   const pathname = usePathname();
   
   const navItems = [
-    { href: "/admin", label: "Dashboard", icon: "📊" },
-    { href: "/services", label: "Services", icon: "🛠️" },
-    { href: "/vendors", label: "Vendors", icon: "👥" },
-    { href: "/courses", label: "Courses", icon: "📚" },
-    { href: "/intake", label: "Client Intake", icon: "📝" },
+    { href: "/admin/services", label: "Services", icon: "🛠️" },
+    { href: "/admin/courses", label: "Courses", icon: "📚" },
+    { href: "/admin/logs", label: "Client Logs", icon: "📋" },
+    { href: "/admin/newclient", label: "New Client", icon: "➕" },
+    { href: "/admin/notes", label: "Notes", icon: "📝" },
   ];
 
   return (
@@ -21,7 +21,6 @@ export default function AdminNav() {
           <h2 className="text-xl font-bold text-amber-400">Admin Panel</h2>
           <p className="text-xs text-slate-400 mt-1">Nutritionist CRM</p>
         </div>
-
         {/* Navigation Items */}
         <div className="flex-1 py-6 px-4 space-y-2">
           {navItems.map((item) => (
@@ -39,11 +38,10 @@ export default function AdminNav() {
             </Link>
           ))}
         </div>
-
         {/* Footer */}
         <div className="p-4 border-t border-slate-700">
           <Link
-            href="/login"
+              href="/login"
             className="flex items-center justify-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg transition-colors"
           >
             <span>🚪</span>
